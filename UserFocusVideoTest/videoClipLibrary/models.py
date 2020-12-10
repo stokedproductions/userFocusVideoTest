@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class SourceVideo(models.Model):
-    filename = models.FileField(upload_to='uploads/')
+    filename = models.FileField(upload_to='uploads')
     pub_date = models.DateTimeField('date published')
 
 
